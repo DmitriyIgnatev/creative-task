@@ -1,0 +1,49 @@
+{% load static %}
+
+<html>
+ <head>
+    
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+  <title>Обо мне</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+
+    <style>
+        body {
+            font-family: "Montserrat";
+          }
+    </style>
+ </head>
+ <body>
+    <center>
+        <h1>Немного обо мне</h1>
+    <br>
+    <br>
+    <h3 style="margin-left:20%; margin-right:20%">Меня зовут Димуля, мне 17 лет. Я учусь в городе ЧЕБОКСАРЫ, в школе Гимназии 1</h3>
+    <img src="{% static 'img/1.jpg' %}" alt='Если вы это читаете, то видимо что-то пошло не так' width="20%" height="70%">
+    <img src="{% static 'img/2.jpg' %}" alt='Если вы это читаете, то видимо что-то пошло не так' width="20%" height="70%">
+    <br>
+    <br>
+    <h3>Могу отметить свои такие качества, как:</h3>
+    <ul class="list-group list-group-flush">
+      <div style='font-size:24pt'>
+      <li class="list-group-item">Упорство</li>
+      <li class="list-group-item">Интерес к программированию</li>
+      <li class="list-group-item">обучаемость</li>
+    </ul>
+  </div>
+  <h3 style='font-size:10pt'>Да, сверху был Bootstrap :)</h3>
+  <br>
+  <br>
+  <h3 style="margin-left:20%; margin-right:20%">Бывало, становился год назад призером муниципального этапа ежегодной олимпиады по информатике. Учавствовал во многих хаккатонах с командой. Например самый большой очный хаккатон по ИИ в чебоксарах или хаккатон от Яндекса, где нужно было создать новые для Алисы. Мы тогда игру в навыке сделали</h3>
+  <br>
+  <br>
+  <h3 style="margin-left:20%; margin-right:20%">Конечно же, я закончил 2 года в Лицее Академии Яндекса. Набрал 75 баллов. За последний проект 100 получил :)</h3>
+  <br>
+  <br>
+  <h3 style="margin-left:20%; margin-right:20%">Кстати, если говорить, про опыт в разработке, то на выпуске Лицея Яндекса, я нашел себе и своей команде заказчика - это компания "Кейсистемс". Летом мы делали проект для нее, сервер написали на Django</h3>
+    </center>
+ </body>
+</html>
