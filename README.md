@@ -9,5 +9,5 @@
 4. Скачать библиотеки в requirements.txt
 5. перейти в папку simple_project
 6. открыть cmd
-7. в ВС python manage.py runserver
+7. python manage.py runserver
 8. Радоваться, что все заработало :)
